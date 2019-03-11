@@ -3,7 +3,7 @@
 
 2-[CW2](https://hasangulbaba.github.io/AutoMath/CW2)
 
-3-[CW3](https://hasangulbaba.github.io/AutoMath/RegularExpressions)
+3-[CW3](https://hasangulbaba.github.io/AutoMath/CW3_RegularExpressions)
 
 --------HOMEWORKS---------
 
