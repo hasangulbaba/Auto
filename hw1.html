@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width">
+    <title>Regular Expressions</title>
+  <style>
+  .arrayColor{
+	color:red;
+  }
+  
+  .stringColor{
+	color: blue;
+  }
+  span span[class=stringColor] {color: red
+      }
+  </style>
+</head>
+
+<body>
+<h2 id="title">Regular Expressions --> Strings and Arrays</h2>
+
+<p>
+Input <br>
+<textarea type="text" rows="10" cols="50" id="area" onkeyup="checkRE()"></textarea>
+</p>
+<p id="out"></p>
+
+<hr>
+<b>Sample code</b>
+<pre id="sample">
+function checkRE() {
+	out.innerHTML =area.value;
+    if (area.value) {
+        const exp = new RegExp(/"[a-z]*"/,'g');
+        const str = "<span class=stringColor>$&</span>";
+        values = area.value.replace(exp, str);
+		
+		const exparr = new RegExp(/\[[\S ]*\]/,'g');
+        const strarr = "<span class=arrayColor>$&</span>";
+        values = values.replace(exparr, strarr).split("\n").join("<br>");
+		out.innerHTML = values;
+    }
+	
+		sample.innerText = checkRE.toString();
+		title.innerText = document.title;
+		
+}</pre>
+<hr>
+
+<script>
+"use strict";
+
+function setValues(){
+	area.value = 'const string = "homework"+"HW1"+"hasan1905";\nvar arr = [22,"edirne",sa,"1.works"];';
+	checkRE();
+}
+
+var values="";
+function checkRE() {
+out.innerHTML =area.value;
+    if (area.value) {
+        const exp = new RegExp(/"[a-zA-Z0-9]*"/,'g');
+        const str = "<span class=stringColor>$&</span>";
+        values = area.value.replace(exp, str);
+		
+		const exparr = new RegExp(/\[[\S ]*\]/,'g');
+        const strarr = "<span class=arrayColor>$&</span>";
+        values = values.replace(exparr, strarr).split("\n").join("<br>");
+		out.innerHTML = values;
+    }
+	
+}
+		sample.innerText = checkRE.toString();
+		title.innerText = document.title;
+		setValues();
+</script>
+
+
+
+</body></html>
