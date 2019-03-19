@@ -5,6 +5,6 @@
 
 3-[CW3](https://hasangulbaba.github.io/AutoMath/CW3_RegularExpressions)
 
---------HOMEWORKS---------
+--------HOMEWORKS ~~~~~~~~~
 
 1-[HW1](https://hasangulbaba.github.io/AutoMath/HW1)
