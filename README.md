@@ -7,6 +7,8 @@
 
 4-[CW4](https://hasangulbaba.github.io/AutoMath/CW4)
 
+5-[CW5](https://hasangulbaba.github.io/AutoMath/CW5/CW5)
+
 --------HOMEWORKS ~~~~~~~~~
 
 1-[HW1](https://hasangulbaba.github.io/AutoMath/HW1)
