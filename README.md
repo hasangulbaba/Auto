@@ -16,3 +16,5 @@
 --------HOMEWORKS ~~~~~~~~~
 
 1-[HW1](https://hasangulbaba.github.io/AutoMath/HW1) - Regular Expression
+
+3-[HW3](https://hasangulbaba.github.io/AutoMath/HW3/microJ3)
