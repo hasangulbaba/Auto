@@ -13,11 +13,13 @@
 
 7-[CW7](https://hasangulbaba.github.io/AutoMath/cw7/microJ3) - MicroJ3 Parser
 
+8-[CW10](https://hasangulbaba.github.io/AutoMath/cw10.odt) - Graph teori
+
 --------HOMEWORKS --------
 
 1-[HW1](https://hasangulbaba.github.io/AutoMath/HW1) - Regular Expression
 
-3-[HW3](https://hasangulbaba.github.io/AutoMath/HW3/microJ3)
+3-[HW3](https://hasangulbaba.github.io/AutoMath/HW3/microJ3) 
 
 -------Project-----------
 
