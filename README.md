@@ -15,7 +15,7 @@
 
 8-[CW10](https://hasangulbaba.github.io/AutoMath/cw10.odt) - Graph teori
 
---------HOMEWORKS --------
+HOMEWORKS
 
 1-[HW1](https://hasangulbaba.github.io/AutoMath/HW1) - Regular Expression
 
@@ -23,6 +23,6 @@
 
 3-[HW3](https://hasangulbaba.github.io/AutoMath/HW3/microJ3) Modifing MicroJ1
 
--------Project-----------
+Project
 
 1-[P1](https://hasangulbaba.github.io/AutoMath/asd) - Regular Expression Web Page
