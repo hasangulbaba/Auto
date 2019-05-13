@@ -19,9 +19,9 @@
 
 1-[HW1](https://hasangulbaba.github.io/AutoMath/HW1) - Regular Expression
 
-2-[HW2](https://hasangulbaba.github.io/AutoMath/HW2/Expression) - Regular Expression
+2-[HW2](https://hasangulbaba.github.io/AutoMath/HW2/Expression) - Expression
 
-3-[HW3](https://hasangulbaba.github.io/AutoMath/HW3/microJ3) 
+3-[HW3](https://hasangulbaba.github.io/AutoMath/HW3/microJ3) Modifing MicroJ1
 
 -------Project-----------
 
