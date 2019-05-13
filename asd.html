@@ -237,8 +237,8 @@ tr:nth-child(even) {
 	<button class="btn info" onClick="nextButton()">Next >></button>
 	</br>
 	<br>
-	<button class="btn danger" onClick="showResult()">Show Result</button>
-	<button class="btn danger" onClick="start()">Start Competition</button>
+	
+	<div id="startButton"><button class="btn danger" id="start" onClick="start()">Start Competition</button> <button class="btn danger" onClick="showResult()">Show Result</button></div>
 	</br>
 	<h2>Comparison Table</h2>
 
@@ -305,6 +305,8 @@ document.getElementById('question').innerHTML = sorular[i];
 }
 var point=0;
 function showResult(){
+
+
 point=0;
 let mTitle = '<tr><th style="width:50%">Questions</th> <th style="width:50%">Your Results</th></tr>'
 let rows = ''
@@ -322,6 +324,7 @@ document.getElementById('point').innerText = "Total Point: " + point;
 
 // Set the date we're counting down to
 function start(){
+document.getElementById("startButton").innerHTML='<button class="btn danger" onClick="showResult()">Show Result</button>';
 	// Update the count down every 1 second
 	var x = setInterval(function() {
 		a--;
@@ -335,7 +338,7 @@ function start(){
 		//clearInterval(x);
 		//document.getElementById("demo").innerHTML = "TIME'S UP!";
 	  }
-	  else if(page==8){  
+	  else if(page==8){
 		clearInterval(x);
 		document.getElementById("demo").innerHTML = "Time's up!";
 	  }
